@@ -1,9 +1,26 @@
 
 body{
   background-color: darkgrey;
+
 }
 
-.login_box div{
+.login_box{
   border-radius: 40px;
-  background-image: radial-gradient(rgba(255, 0, 0, 1), rgba(255, 0, 0, 0.8));
+  background-image: radial-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.8));
+  width: 400px;
+  height: 300px;
+  text-align: center;
+  margin: auto;
+  margin-top: 30vh;
+  font-size: 40pt;
+  box-shadow: 10px 10px 20px;
+  position: relative;
+}
+
+.login_box_text{
+  position: absolute;
+  margin-top: 50px;
+  width: 100%;
+  font-family: sans-serif;
+  text-align: center;
 }
